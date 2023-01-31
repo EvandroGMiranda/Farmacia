@@ -11,7 +11,7 @@ import org.hibernate.annotations.UpdateTimestamp;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @Entity
-@Table(name = "categoria")
+@Table(name = "produto")
 public class farmaciaModel {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
